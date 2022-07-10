@@ -1,0 +1,69 @@
+.shadow 
+{
+    -webkit-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.border-radious 
+{
+    border-radius: 25px;
+}
+
+.gradient 
+{
+    background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    color: white;
+    border:none;
+}
+
+.gradient:hover
+{
+    background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    color: white;
+    border:none;
+    
+}
+
+
+.orange-button 
+{
+    --tw-bg-opacity: 1;
+    background-color: rgba(251,146,60,var(--tw-bg-opacity));
+
+}
+
+.border-none 
+{
+    border:none;
+    border-radius: 25px;
+}
+.border-none:hover 
+{
+    border:none;
+    opacity: 0.5;
+    --tw-bg-opacity: 1;
+    background-color: rgba(251,146,60,var(--tw-bg-opacity));
+}
+
+.mt-6
+{
+margin-top: 30px;
+}
+
+.mt-7
+{
+margin-top: 5.2em;
+}
+
+.bg-gray 
+{
+        --tw-bg-opacity: 1;
+        background-color: rgba(217, 215, 215, 0.4);
+}
+
+.footer-resim 
+{
+    margin-top: 7em;
+    margin-left: -1.3em;
+}
